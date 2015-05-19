@@ -152,6 +152,23 @@ gulp.task('all', function(){
     });
 });
 
+
+gulp.task('build', function (){
+    var child = child_process.exec('webpack entry.js lib/bundle.js', function (err, stdout, stderr){
+        if (!err){
+            console.log('stdout: ' + stdout);
+            console.log('stderr: ' + stderr)
+        } else {
+            console.log(err);
+            // err.code will be the exit code of the child process
+            console.log(err.code);
+            // err.signal will be set to the signal that terminated the process
+            console.log(err.signal);
+        }
+    });
+});
+
+
 gulp.task('test', function (){
     var status = 'stop';
     var cmd = 'nosetests';
