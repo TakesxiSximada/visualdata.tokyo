@@ -154,7 +154,7 @@ gulp.task('all', function(){
 
 
 gulp.task('build', function (){
-    var cmd = 'webpack entry.js lib/bundle.js --module-bind "css=style!css"'
+    var cmd = 'webpack'
     var child = child_process.exec(cmd, function (err, stdout, stderr){
         if (!err){
             console.log('stdout: ' + stdout);
