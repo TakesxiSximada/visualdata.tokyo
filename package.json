@@ -1,0 +1,19 @@
+{
+  "name": "visualdata.tokyo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TakesxiSximada/visualdata.tokyo.git"
+  },
+  "author": "TakesxiSximada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TakesxiSximada/visualdata.tokyo/issues"
+  },
+  "homepage": "https://github.com/TakesxiSximada/visualdata.tokyo"
+}
