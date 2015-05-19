@@ -22,6 +22,12 @@ gulp.task('template', function (){
     bower_to_lib({'': ''});
 });
 //--------------------------------
+gulp.task('d3', function (){
+    bower_to_lib({
+        'd3/d3.js': 'd3/d3.js',
+        'd3/d3.min.js': 'd3/d3.min.js',
+    });
+});
 gulp.task('foundation', function (){
     bower_to_lib({
         'foundation/js/**': 'foundation/js',
