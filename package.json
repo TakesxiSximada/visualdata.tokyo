@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TakesxiSximada/visualdata.tokyo/issues"
   },
-  "homepage": "https://github.com/TakesxiSximada/visualdata.tokyo"
+  "homepage": "https://github.com/TakesxiSximada/visualdata.tokyo",
+  "dependencies": {
+    "gulp": "^3.8.11"
+  }
 }
