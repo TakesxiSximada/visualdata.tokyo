@@ -1,6 +1,6 @@
 // -*- coding: utf-8 -*-
 module.exports = {
-    entry: './entry.js',
+    entry: './static/entry.js',
     output: {
         path: __dirname + '/static',
         filename: 'bundle.js',
